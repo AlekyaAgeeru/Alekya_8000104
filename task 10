@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debugging with Chrome DevTools</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #box {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            margin: auto;
+            line-height: 100px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Debugging Example</h2>
+
+    <div id="box">
+        Debug Box
+    </div>
+
+    <button onclick="changeStyle()">
+        Change Style
+    </button>
+
+    <script>
+
+        // Console log
+        console.log("Page Loaded Successfully");
+
+        function changeStyle() {
+
+            let box = document.getElementById("box");
+
+            // Add breakpoint here in DevTools
+            console.log("Button Clicked");
+
+            box.style.backgroundColor = "yellow";
+            box.style.color = "red";
+
+            console.log("Style Changed");
+        }
+
+    </script>
+
+</body>
+</html>

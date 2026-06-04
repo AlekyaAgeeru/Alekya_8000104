@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Banner</title>
+
+    <style>
+        #welcomeBanner {
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .highlight {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="welcomeBanner">
+        <h1>Welcome User!</h1>
+
+        <p>
+            Get 
+            <span style="color:red; font-weight:bold;">
+                Special Offer
+            </span>
+            today!
+        </p>
+
+        <p class="highlight">
+            Enjoy exclusive benefits.
+        </p>
+    </div>
+
+</body>
+</html>

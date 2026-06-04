@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .galleryImg {
+            width: 200px;
+            height: 150px;
+            border: 3px solid black;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table border="1">
+
+        <caption>Community Event Gallery</caption>
+
+        <tr>
+            <td>
+                <img src="event1.jpg"
+                     alt="Music Event"
+                     title="Music Event"
+                     class="galleryImg">
+                <p>Music Festival</p>
+            </td>
+
+            <td>
+                <img src="event2.jpg"
+                     alt="Food Event"
+                     title="Food Event"
+                     class="

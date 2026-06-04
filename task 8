@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Saving User Preferences</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        select, button {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #message {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Event Preference</h2>
+
+    <label>Select Event Type:</label>
+
+    <select id="eventType" onchange="savePreference()">
+        <option value="">Choose Event</option>
+        <option value="Music">Music</option>
+        <option value="Sports">Sports</option>
+        <option value="Cultural">Cultural</option>
+    </select>
+
+    <br>
+
+    <button onclick="clearPreferences()">
+        Clear Preferences
+    </button>
+
+    <p id="
